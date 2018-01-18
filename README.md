@@ -19,12 +19,12 @@ some more instructions here
 Show how to add currencies, potentially add all currencies listed on Coinmarketcap
 
 ## Screenshot of v1.0 working
-Insert image here!
+![The plugin (v1.0) shown on macOS High Sierra](https://i.imgur.com/I7lRVQF.png)
 
 ## To-Do List
 - [x] Begin README fixes
 - [x] Add instructions to install BitBar
-- [] Add all other instructions on using the plugin
-- [] Add screenshots to show how the app looks
-- [] Ask for user feedback
-- [] Continual improvement!
+- [ ] Add all other instructions on using the plugin
+- [x] Add screenshots to show how the app looks
+- [ ] Ask for user feedback
+- [ ] Continual improvement!
