@@ -6,7 +6,7 @@ A plugin that will print a user's cryptocurrency investments onto their menubar 
 * Download the [latest version of BitBar](https://github.com/matryer/bitbar/releases/download/v1.9.2/BitBar-v1.9.2.zip) from their Github (it is a .zip file).
 * On your mac, go to *Finder > Downloads* and double click the file downloaded.
 ![BitBar download as it appears in the Download folder](https://i.imgur.com/xNjOE7H.png)
-* Another item will appear named **"BitBar"** and will be listed as an application under "type".
+* Another item will appear named **"BitBar"** and will be listed as an application under "Kind".
 ![BitBar appearing after being unzipped](https://i.imgur.com/6gNmWkm.png)
 * Drag this to your Applications folder.
 ![Dragging BitBar into the Applications folder](https://i.imgur.com/0bi0lHU.gif)
