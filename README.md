@@ -1,5 +1,23 @@
 # Cryptocurrency Info
-A macOS menu plugin to display informaiton about your personal cryptocurrency investments.
+A plugin that will print a user's cryptocurrency investments onto their menubar on macOS using [bitbar](https://github.com/matryer/bitbar).
 
-### Setup
-This is currently being worked on, I posted a [screenshot](https://www.reddit.com/r/Stellar/comments/7r94ut/a_menubar_plugin_for_macos_to_track_your_own/) on the Stellar Lumens subreddit about this!
+## Requirements
+### Installing Bitbar
+Insert instructions on how to do this here.
+
+### Installing the cryptocurrency plugin
+some more instructions here
+
+### Editing the plugin to add your own investments and currencies
+Show how to add currencies, potentially add all currencies listed on Coinmarketcap
+
+## Screenshot of v1.0 working
+Insert image here!
+
+### To-Do List
+- [] Begin README fixes
+- [] Add instructions to install BitBar
+- [] Add all other instructions on using the plugin
+- [] Add screenshots to show how the app looks
+- [] Ask for user feedback
+- [] Continual improvement!
