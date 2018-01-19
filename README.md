@@ -13,7 +13,7 @@ A plugin that will print a user's cryptocurrency investments onto their menubar 
 * Launch BitBar by double clicking on the BitBar app found on your launchpad!
 
 ### Install the cryptocurrency plugin
-some more instructions here
+Some more instructions here
 
 ### Edit the plugin to add your own investments and currencies
 Show how to add currencies, potentially add all currencies listed on Coinmarketcap
