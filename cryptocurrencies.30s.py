@@ -13,11 +13,11 @@ import json
 
 # insert information about each currency here -- the number of tokens/coins you hodl and the total cost in your currency 
 # a) XLM information
-number_of_xlm = 2461.00
-total_cost_xlm = 199.00
+number_of_xlm = 5000
+total_cost_xlm = 250.00
 # b) XVG information
-number_of_xvg = 1148.00
-total_cost_xvg = 78.00
+number_of_xvg = 1000.00
+total_cost_xvg = 75.00
 
 # API request to coinmarketcap for the current information about XLM
 xlm_api_request = requests.get("https://api.coinmarketcap.com/v1/ticker/stellar/")
