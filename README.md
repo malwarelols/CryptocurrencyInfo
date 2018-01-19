@@ -13,7 +13,7 @@ A plugin that will print a user's cryptocurrency investments onto their menubar 
 * Launch BitBar by double clicking on the BitBar app found on your launchpad!
 * You need to set the plugin folder, choose anywhere you like. I use *Documents/dev/bitbar-plugins/* as an example.
 
-### Install the cryptocurrency plugin
+## Install the cryptocurrency plugin
 * Open up terminal on your mac and change into a directory of your choice (use the [cd command](https://www.macworld.com/article/2042378/master-the-command-line-navigating-files-and-folders.html))
 * Once in the correct folder, run the command `git clone https://github.com/malwarelols/CryptocurrencyInfo/`
 * A folder will appear called *CryptocurrencyInfo*
