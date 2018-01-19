@@ -47,4 +47,5 @@ If you want to add any other currency, all you need to do is replicate the XLM p
 - [x] Add all other instructions on using the plugin
 - [x] Add screenshots to show how the app looks
 - [ ] Ask for user feedback?
+- [ ] Add an install script to avoid users having to install BitBar and the plugin manually.
 - [ ] Continual improvement!
