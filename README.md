@@ -1,5 +1,9 @@
 # Cryptocurrency Info
-A plugin that will print a user's cryptocurrency investments onto their menubar on macOS using [bitbar](https://github.com/matryer/bitbar).
+A plugin that will print a user's cryptocurrency investments onto their menubar on macOS using [bitbar](https://github.com/matryer/bitbar). It shows:
+* Current price
+* Total value of an investors tokens/coin
+* Profit/loss percentage
+* Total profit of the tokens/coins. 
 
 ## Requirements
 ### Install Bitbar
