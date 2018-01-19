@@ -17,7 +17,14 @@ A plugin that will print a user's cryptocurrency investments onto their menubar 
 Download the script from the **Master branch** of this repo. Either using git clone or manually downloading it.
 
 #### Using git clone
-instructions here
+* Open up terminal on your mac and change into a directory of your choice (use the [cd command](https://www.macworld.com/article/2042378/master-the-command-line-navigating-files-and-folders.html))
+* Once in the correct folder, run the command `git clone https://github.com/malwarelols/CryptocurrencyInfo/`
+* A folder will appear called *CryptocurrencyInfo*
+* Move into the directory using `cd CryptocurrencyInfo`
+* In here is a file called `cryptocurrencies.30s.py`, this needs to be copied to your plugin folder set in BItBar.
+* Use the command `cp cryptocurrencies.30s.py /path/to/bitbar/folder` where the last argument is the path set in BitBar.
+* Click on BitBar in your menu bar and click refresh or use `⌘+R`.
+* Now you should see the money bag logo and clicking on it will display some information on XLM and XVG. There are instructions below explaining how to customise these to fit your own portfolio.
 
 #### Manually downloading it
 instructions here
