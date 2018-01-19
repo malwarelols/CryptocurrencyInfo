@@ -15,9 +15,10 @@ import json
 # a) XLM information
 number_of_xlm = 5000
 total_cost_xlm = 250.00
+
 # b) XVG information
-number_of_xvg = 1000.00
-total_cost_xvg = 75.00
+# number_of_xvg = 1000.00
+# total_cost_xvg = 75.00
 
 # API request to coinmarketcap for the current information about XLM
 xlm_api_request = requests.get("https://api.coinmarketcap.com/v1/ticker/stellar/")
@@ -29,13 +30,13 @@ for s in stellar:
     stellar_profit = (stellar_total_value - total_cost_xlm) # Calculation for the total profit in money
 
 # API request to coinmarketcap for the current infomation on XVG -- see the code comments above for explanation of what each line is doing.
-xvg_api_request = requests.get("https://api.coinmarketcap.com/v1/ticker/verge/")
-verge = json.loads(xvg_api_request.content)
-for v in verge:
-    verge_price = float(v['price_usd']) * 0.75
-    verge_total_value = (verge_price * number_of_xvg)
-    verge_percentage = (((verge_total_value - total_cost_xvg)/total_cost_xvg) * 100)
-    verge_profit = (verge_total_value - total_cost_xvg)
+# xvg_api_request = requests.get("https://api.coinmarketcap.com/v1/ticker/verge/")
+# verge = json.loads(xvg_api_request.content)
+# for v in verge:
+#    verge_price = float(v['price_usd']) * 0.75
+#    verge_total_value = (verge_price * number_of_xvg)
+#    verge_percentage = (((verge_total_value - total_cost_xvg)/total_cost_xvg) * 100)
+#    verge_profit = (verge_total_value - total_cost_xvg)
 
 try:
     print("💰")
@@ -45,12 +46,12 @@ try:
     print("{0:.2f}%".format(stellar_percentage))
     print("XLM Profit: £{0:.2f}".format(stellar_profit))
     print("---")
-    print("{sym} = £{price}".format(sym=v['symbol'],price=verge_price))
-    print("Total value: £{0:.2f}".format(verge_total_value))
-    print("{0:.2f}%".format(verge_percentage))
-    print("XVG Profit: £{0:.2f}".format(verge_profit))
-    print("---")
-    print("Overall Profit: £{0:.2f}".format(stellar_profit + verge_profit))
+    # print("{sym} = £{price}".format(sym=v['symbol'],price=verge_price))
+    # print("Total value: £{0:.2f}".format(verge_total_value))
+    # print("{0:.2f}%".format(verge_percentage))
+    # print("XVG Profit: £{0:.2f}".format(verge_profit))
+    # print("---")
+    # print("Overall Profit: £{0:.2f}".format(stellar_profit + verge_profit))
 
 except:
     print("❌")
